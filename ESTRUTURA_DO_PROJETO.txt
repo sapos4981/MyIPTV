@@ -1,0 +1,69 @@
+Listagem de caminhos de pasta
+O n£mero de s‚rie do volume ‚ 72FB-3DC5
+C:.
+|   .gitignore
+|   build.gradle
+|   COMO_COMPILAR.md
+|   ESTRUTURA_DO_PROJETO.txt
+|   gradle.properties
+|   local.properties
+|   README.md
+|   settings.gradle
+|   TUTORIAL.md
+|   
+\---app
+    |   build.gradle
+    |   proguard-rules.pro
+    |   
+    \---src
+        \---main
+            |   AndroidManifest.xml
+            |   
+            +---java
+            |   \---com
+            |       \---myiptv
+            |           +---adapter
+            |           |       ChannelAdapter.kt
+            |           |       PlaylistAdapter.kt
+            |           |       
+            |           +---data
+            |           |       AppDatabase.kt
+            |           |       Channel.kt
+            |           |       ChannelDao.kt
+            |           |       Playlist.kt
+            |           |       PlaylistDao.kt
+            |           |       
+            |           +---parser
+            |           |       M3UParser.kt
+            |           |       
+            |           +---ui
+            |           |       AddPlaylistActivity.kt
+            |           |       ChannelListActivity.kt
+            |           |       MainActivity.kt
+            |           |       PlayerActivity.kt
+            |           |       
+            |           \---viewmodel
+            |                   PlaylistViewModel.kt
+            |                   
+            \---res
+                +---drawable
+                +---layout
+                |       activity_add_playlist.xml
+                |       activity_channel_list.xml
+                |       activity_main.xml
+                |       activity_player.xml
+                |       custom_player_control.xml
+                |       item_channel.xml
+                |       item_playlist.xml
+                |       
+                +---menu
+                +---mipmap-hdpi
+                +---mipmap-mdpi
+                +---mipmap-xhdpi
+                +---mipmap-xxhdpi
+                +---mipmap-xxxhdpi
+                \---values
+                        colors.xml
+                        strings.xml
+                        themes.xml
+                        
